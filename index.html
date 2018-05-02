@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Work Inc</title>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Let browser website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--favicon-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <!--estilos-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo"><img src="img/logoBlanco.png" alt="logo Work Inc" class="logoWI"></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#beneficios">Beneficios</a></li>
+              <li><a href="#membresias">Membresías</a></li>
+              <li><a href="#comunidad">Nuestra Comunidad</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+              <li><a href="#ubicacion">Ubicación</a></li>
+              <li><a href="#modal1" class="waves-effect waves-light modal-trigger">Day Pass Free</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>     
+    </header>
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <p class="center-align precio">Registra tus datos y gana un Day Pass Free</p>
+        <form action="">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="name" type="text" class="validate">
+              <label for="first_name">Nombre</label>
+            </div>
+          </div>
+          <div class="row">  
+            <div class="input-field col s12">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Apellido</label>
+            </div>
+          </div>
+          <div class="row">  
+            <div class="input-field col s12">
+              <input id="mail" type="text" class="validate">
+              <label for="last_name">E-mail</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label for="textarea1">¿Cómo te enteraste de nosotros?</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s6 offset-s3">
+              <button class="cupon"><a href="cupon.pdf" download="DayPassFree">Envíar</a></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <section class="size"> <!--carousel-->
+      <div class="carousel carousel-slider" data-indicators="true">
+        <div class="carousel-fixed-item">
+          <div class="container">
+            <p class="white-text fondo center-align">Somos un espacio donde ayudamos a emprendedores y empresas a desarrollar sus negocios y a seguir creciendo a través de un ambiente de trabajo y de colaboración; las empresas existen gracias a las ideas de emprendedores que persisten en ampliar su conocimiento y sus relaciones humanas.</p>
+          </div>
+        </div>
+        <div class="carousel-item carimg1" href="#one!">
+          <div class="container">
+          </div>  
+        </div>
+        <div class="carousel-item carimg2" href="#two!">
+          <div class="container">
+          </div>  
+        </div>
+        <div class="carousel-item carimg3" href="#three!">
+          <div class="container">
+          </div>  
+        </div>
+        <div class="carousel-item carimg4" href="#four!">
+          <div class="container">
+          </div>  
+        </div>
+      </div>
+    </section>
+    <section class="container" id="beneficios"> <!--beneficios-->
+      <h2>Beneficios</h2>
+      <p class="beneficio">Contamos con oficinas privadas completamente equipadas, un cómodo espacio de coworking, sala de juntas y conferencias así como una terraza. <br> En este espacio queremos que encuentres todo lo necesario para mejorar o arrancar tu negocio:</p>
+      <div class="row centrar">
+        <div class="col m2 s4 offset-m1">
+          <i class="material-icons">access_time</i>
+          <p>24/7</p>
+        </div>
+        <div class="col m2 s4">
+          <i class="material-icons">event_available</i>
+          <p>365 días del año</p>
+        </div>
+        <div class="col m2 s4">
+          <i class="material-icons">assignment_ind</i>
+          <p>Acceso seguro</p>
+        </div> 
+        <div class="col m2 s4 offset-s2">
+          <i class="material-icons">person</i>
+          <p>Persona física</p>
+        </div>
+        <div class="col m2 s4">
+          <i class="material-icons">people</i>
+          <p>Persona moral</p>
+        </div>
+      </div>
+      <div class="row centrar">  
+        <div class="col m2 s4 offset-m1">
+          <i class="material-icons">room</i>
+          <p>Excelente ubicación</p>
+        </div>
+        <div class="col m2 s4">
+          <i class="material-icons">pets</i>
+          <p>Pet friendly</p>
+        </div>
+        <div class="col m2 s4">
+            <i class="material-icons">payment</i> 
+            <p>Sin depósitos previos</p>
+          </div>
+        <div class="col m2 s4 offset-s2">
+          <i class="material-icons">beach_access</i>
+          <p>Terraza</p>
+        </div>
+        <div class="col m2 s4">
+          <i class="material-icons">spa</i>
+          <p>Área recreativa</p>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="membresias"> <!--membresias-->
+      <h2>Membresías</h2>
+      <div class="row">
+        <div class="col m4 s12"> <!--oficinas-->
+          <div class="tarjeta">
+            <div id="oficinas" class="materialboxed">
+              <p class="espacio">Oficinas</p>
+            </div>
+            <div>
+              <p class="txtj">Contamos con oficinas privadas completamente equipadas en una excelente ubicación; con capacidad para 1 o hasta 6 personas. El costo dependerá de tu búsqueda y necesidades.</p>
+              <a href="oficinas.html" target="_blank"><button class="verMas">Ver más</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12"> <!--coworking-->
+          <div class="tarjeta">
+            <div id="coworking" class="materialboxed">
+              <p class="espacio">Coworking</p>
+            </div>
+            <div>
+              <p class="txtj">Te brindamos un espacio cómodo y en donde podrás crear una sociedad de networking constante. Cada membresía es de uso completamente individual con tres diferentes ofertas.</p>
+              <a href="coworking.html" target="_blank"><button class="verMas">Ver más</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12"> <!--escritorio fijo-->
+          <div class="tarjeta">
+            <div id="escritorio" class="materialboxed">
+              <p class="espacio">Escritorio Fijo</p>
+            </div>
+            <div>
+              <p class="txtj">Te asignamos un espacio exclusivo con acceso cerrado. Disfruta los beneficios de una oficina privada, pero con la oportunidad de convivir diariamente con otras personas. </p>
+              <a href="escritorio.html" target="_blank"><button class="verMas">Ver más</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m4 s12"> <!--oficina virtual-->
+          <div class="tarjeta">
+            <div id="terraza" class="materialboxed">
+              <p class="espacio">Oficina Virtual</p>
+            </div>
+            <div>
+              <p class="txtj">Servicio que ayudará a tu negocio a tener su dirección comercial y fiscal con una excelente ubicación. </p>
+              <a href="oficinaVirtual.html" target="_blank"><button class="verMas">Ver más</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12"> <!--sala de juntas-->
+          <div class="tarjeta">
+            <div id="juntas" class="materialboxed">
+              <p class="espacio">Sala de Juntas</p>
+            </div>
+            <div>
+              <p class="txtj">Ofrecemos una sala de juntas con capacidad para 8 personas.  Excelente ubicación y espacio agradable. Reserva con 24 horas de anticipación.</p>
+              <a href="salaJuntas.html" target="_blank"><button class="verMas">Ver más</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col m4 s12"> <!--sala de conferencias-->
+          <div class="tarjeta">
+            <div id="conferencias" class="materialboxed">
+              <p class="espacio">Sala de Conferencias</p>
+            </div>
+            <div>
+              <p class="txtj">Ideal para juntas maganas y presentaciones. Con capacidad para 18 personas. Reserva con 24 horas de anticipación.</p>
+              <a href="salaConferencias.html" target="_blank"><button class="verMas">Ver más</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section> <!--comunidad-->
+      <div class="container" id="comunidad">
+        <div class="row">
+          <h2>Nuestra Comunidad</h2>
+        </div>
+        <div class="row mt5">
+          <div class="col m3 s6">
+            <img src="img/clientes/ubora.png" alt="logo ubora digital solutions" id="ubora">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/actipulse.png" alt="logo actipulse" id="actipulse">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/produ.png" alt="logo mundo produ" id="produ">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/vcs.png" alt="logo VCS capital" id="vcs">
+          </div>
+        </div>
+        <div class="row mt5">
+          <div class="col m3 s6">
+            <img src="img/clientes/hub-camp.png" alt="logo Hub-Camp" id="hub">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/exire.png" alt="logo exire" id="exire">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/informed.jpg" alt="" id="informed">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/delantal.png" alt="logo sin delantal" id="delantal">
+          </div>
+        </div>  
+        <div class="row mt5">
+          <div class="col m3 s6">
+            <img src="img/clientes/mexcup.jpg" alt="logo mexcup"  id="mexcup">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/garage.png" alt="logo garage digital" id="garage">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/bici.png" alt="logo bici lab" id="bici">
+          </div>
+          <div class="col m3 s6">
+            <img src="img/clientes/eduzone.png" alt="logo eduzone"  id="edu">
+          </div>
+        </div>
+        <div class="row mt5">
+          <div class="col m4 s6 offset-m4 offset-s3">
+            <img src="img/clientes/tierra.png" alt="logo Tierra Adentro" id="tierra">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section> <!--contacto-->
+      <div class="container" id="contacto">
+        <h2>Contacto</h2>
+        <div class="row contact">
+            <p class="center-align">No dudes en escribirnos si tienes alguna pregunta y/o comentario sobre alguna de nuestras membresías.</p>
+          <div class="col s3">
+            <a href="mailto:work@workinc.com.mx">
+                <div class="circulo">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </div>
+            </a>
+          </div>
+          <div class="col s3">
+            <a href="https://www.facebook.com/WorkInc.Mexico/?ref=br_rs">
+              <div class="circulo">
+                <i class="fa fa-facebook" aria-hidden="true" ></i>
+              </div>
+            </a>
+          </div>
+          <div class="col s3">
+            <a href="https://www.instagram.com/workinc_mexico/">
+              <div class="circulo">
+                <i class="fa fa-instagram" aria-hidden="true" ></i>
+              </div>
+            </a>
+          </div>
+          <div class="col s3">
+            <a href="https://www.linkedin.com/company/workincoffices/">
+              <div class="circulo">
+                <i class="fa fa-linkedin" aria-hidden="true" ></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="ubicacion"> <!--ubicacion-->
+      <h2>Ubicación</h2>
+      <div class="row">
+        <div class="col s12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.4447897712153!2d-99.1690677328884!3d19.430021999591933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35122a2df9%3A0x2ba6fca01dee523e!2sWork+Inc!5e0!3m2!1ses!2smx!4v1521914838732" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col s6 center-align">
+              <small><img src="img/metro.png" class="metro"> Insurgentes - Sevilla</small>
+            </div>
+            <div class="col s6">
+              <small><img src="img/metrobus.png" class="metrobus"> Insurgentes - Hamburgo - La Palma</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <span>Work Inc <br> Río Lerma 94, Col. Cuauhtémoc, CDMX <br> 7825 0910 <br> work@workinc.com.mx</span>
+      </div>
+    </footer>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+        $('.modal').modal();
+      });
+
+      $(document).ready(function(){
+        $('.carousel').carousel(
+          {
+            dist: 0,
+            padding: 0,
+            fullWidth: true,
+            indicators: true,
+            duration: 100,
+          }
+          );
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,426 @@
+/*rojo: #ae0400*/
+*{
+	font-family: Helvetica;
+	font-size: large;
+}
+/*encabezados*/
+h1{
+	text-align: center;
+	color: #ae0400;
+	margin: 10% 0% 5% 0%;
+
+}
+h2{
+	text-align: center;
+	color: #ae0400;
+	margin: 10% 0% 5% 0%;
+}
+/*header*/
+.logoWI{
+	width: 22%;
+}
+li>a {
+	color: white;
+}
+ul>li>a:hover{
+	color: #ae0400;
+	background-color: white !important;
+}
+nav{
+	background-color: #ae0400;
+}
+.cupon{
+	display: block;
+	margin: auto;
+	background-color: #ae0400;
+	text-decoration: none;
+	border: solid 1px #ae0400;
+	padding: 5%;
+	border-radius: 5%;
+}
+.cupon a{
+	color: white;
+}
+/*carousel*/
+.carimg1{
+	background-image: url(../img/inicio.JPG);
+	background-size: 100% 100%;
+}
+.carimg2{
+	background-image: url(../img/terraza.jpg);
+	background-size: 100% 100%;
+}
+.carimg3{
+	background-image: url(../img/IMG_5469.JPG);
+	background-size: 100% 100%;
+}
+.carimg4{
+	background-image: url(../img/IMG_8336_.jpg);
+	background-size: 100% 100%;
+}
+.size{
+	width: 100%;
+}
+.fondo{
+	background-color: rgba(0,0,0,0.5);
+}
+.carousel{
+	height: 600px;
+}
+/*beneficios*/
+.centrar{
+	text-align:center;
+}
+#beneficios i{
+	color: #ae0400;
+	font-size: 2.5em;
+}
+#beneficios div p{
+	margin-top: -8px;
+	font-size: small;
+}
+.beneficio{
+	margin-bottom: 8%;
+	text-align: justify;
+}
+/*menbresias*/
+.tarjeta{
+	border: solid 1px #e0e0e0 ;
+	margin: 5% 0;
+	padding: 2%;
+	height: 470px;
+}
+.txtj{
+	text-align: justify;
+}
+#oficinas{
+	background: url(../img/oficinas.JPG);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 200px;
+}
+#coworking{
+	background: url(../img/coworking.JPG);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 200px;
+}
+#juntas{
+	background: url(../img/juntas.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 200px;
+}
+#conferencias{
+	background: url(../img/conferencias.JPG);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 200px;
+}
+#terraza{
+	background: url(../img/terraza.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 200px;
+}
+#escritorio{
+	background: url(../img/virtuales.jpg);
+	background-size: 100% 100%;
+	width: 100%;
+	height: 200px;
+}
+.espacio{
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 30%;
+	margin-top: -1px;
+}
+.verMas{
+	display: block;
+	margin: auto;
+	background-color: #ae0400 !important;
+	padding: 3%;
+	text-decoration: none;
+	border: solid 1px #ae0400;
+	border-radius: 10%;
+	color: white !important;
+}
+/*comunidad*/
+#exire{
+	width: 40%;
+	display: block;
+	margin: auto;
+}
+#ubora{
+	width: 100%;	
+	display: block;
+	margin: auto;
+}
+#actipulse{
+	width: 55%;
+	display: block;
+	margin: auto;
+}
+#produ{
+	display: block;
+	margin: auto;
+	background-color: #3449e4;
+	width: 100%;
+}
+#vcs{
+	margin: auto;
+	display: block;
+	width: 50%;
+}
+#informed{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+#tierra{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+#garage{
+	width: 100%;
+	height: 150px;
+}
+#delantal{
+	width: 70%;
+	display: block;
+	margin: auto;
+}
+#bici{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+#mexcup{
+	width: 60%;
+	display: block;
+	margin:auto;
+}
+#edu{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+#hub{
+	width:70%;
+	display: block;
+	margin: auto;
+	background-color: #003046;
+}
+.mt5{
+	margin-top: 5%;
+}
+/*contacto*/
+.contact{
+	background-color: #ae0400;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding: 1% 0% 2% 0%;
+}
+.circulo{	
+	border-radius: 50%;
+	background-color: white;
+	display: block;
+	margin: auto;
+	width: 50px;
+	height: 50px;	
+	color: #ae0400;
+}
+.circulo i{
+	margin-top: 30%;
+}
+/*ubicacion*/
+.metro{
+	width: 10px;
+}
+.metrobus{
+	width: 15px;
+}
+/*footer*/
+footer{
+	color: white;
+	background-color: #ae0400;
+	text-align: center;
+}
+.redes{
+	display: block;
+	margin: auto;
+}
+.redes img{
+	margin: 2%;
+}
+/*espacios*/
+.ofi{
+	background: url("../img/oficinas.JPG");
+	background-size: 100% 100%;
+	height: 600px;
+}
+.cow{
+	background: url("../img/coworking.JPG");
+	background-size: 100% 100%;
+	height: 600px;
+}
+.esc{
+	background: url("../img/escritorio.jpg");
+	background-size: 100% 100%;
+	height: 600px;
+}
+.fijo{
+	background: url("../img/coworking.JPG");
+	background-size: 100% 100%;
+	height: 600px;
+}
+.virtuales{
+	background: url("../img/virtuales.jpg");
+	background-size: 100% 100%;
+	height: 600px;
+}
+.jun{
+	background: url("../img/juntas.jpg");
+	background-size: 100% 100%;
+	height: 600px;
+}
+.con{
+	background: url("../img/conferencias.JPG");
+	background-size: 100% 100%;
+	height: 600px;
+}
+.images{
+	width: 100%
+}
+.txtenca{
+	color: #ae0400;
+	font-size: 1.5em;
+	margin-top: 10%;
+}
+.c1{
+	background-color: rgba(174, 4, 0, .25);
+	color: white;
+	margin-top: -3%; 
+	text-align: center !important;
+}
+.c2{
+	background-color: rgba(174, 4, 0, .45);
+	color: white;
+	margin-top: -3%;
+	text-align: center !important;
+}
+.c3{
+	background-color: rgba(174, 4, 0, .65);
+	color: white;
+	margin-top: -3%;
+	text-align: center !important;
+}
+.c4{
+	background-color: rgba(174, 4, 0, .85);
+	color: white;
+	margin-top: -3%;
+	text-align: center !important;
+}
+.mt10{
+	margin-top: 10%;
+}
+.price{
+	height: 200px;	
+}	
+.image{
+	width: 100%;
+	height: 100px;	
+}
+.txtr{
+	color: #ae0400;
+	display: block;
+	margin: auto;
+}
+.sala{
+	background-color: #ae0400;
+	color: white;
+	font-size: 1.5em;
+	padding: 1%;
+	width: 40%;	
+	margin: auto;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+/*formulario*/
+label{
+	color: #ae0400;
+}
+.send{
+	background-color: #ae0400 !important;
+	border: #ae0400 1px solid;
+	color: white;
+	display: block;
+	margin: auto;
+	padding: 2%;
+	border-radius: 5%;
+}
+/*MEDIA QUERIES*/
+/*movil*/
+@media all and (max-width:360px){
+	.logoWI{
+		width: 65%;
+		display: block;
+		margin: auto;
+	}
+	.carousel{
+		height: 300px;
+	}
+	.circulo{
+		width: 30px;
+		height: 30px;
+	}
+	.circulo i{
+		margin-top: 10%;
+	}
+	.image{
+		width: 100%;
+		height: 200px;	
+	}
+	.txtr{
+		margin-bottom: 5%;
+	}
+	.ofi, .cow, .esc, .virtuales, .jun, .con{
+		height: 300px;
+	}
+}
+/*tablet*/
+@media all and (min-width:360px) and (max-width:768px){
+	.logoWI{
+		width: 60%;
+		display: block;
+		margin: auto;
+	}
+	.ofi, .cow, .esc, .virtuales, .jun, .con{
+		height: 300px;
+	}
+	.galeria{
+		margin-top: 50%;
+	}
+	.c1, .c2, .c3{
+		margin-bottom: 3%;
+	}
+}
+@media all and (min-width:768px) and (max-width:1024px){
+	.logoWI{
+		width: 35%;
+		display: block;
+		margin: auto;
+	}
+	.tarjeta{
+		height: 580px;
+	}
+	.ofi, .cow, .esc, .virtuales, .jun, .con{
+		height: 300px;
+	}
+	.c1{
+		height: 108px;
+	}
+}
