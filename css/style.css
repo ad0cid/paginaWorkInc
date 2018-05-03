@@ -147,6 +147,7 @@ nav{
 	color: white !important;
 	display: block;
 	margin: auto;
+	padding: 2%;
 }
 .mb1, .mb2, .mb3, .mb4, .mb5{
 	margin-bottom: 23%;
@@ -412,6 +413,9 @@ label{
 	.c1, .c2, .c3{
 		margin-bottom: 3%;
 	}
+	.tarjeta{
+		height: 420px;
+	}
 }
 @media all and (min-width:768px) and (max-width:1024px){
 	.logoWI{
@@ -430,5 +434,20 @@ label{
 	}
 	.tarjeta{
 		height: 470px;
+	}
+	.mb1{
+		margin-bottom: 58%;
+	}
+	.mb2{
+		margin-bottom: 45%;
+	}
+	.mb3{
+		margin-bottom: 45%;
+	}
+	.mb4{
+		margin-bottom: 57%;
+	}
+	.mb5{
+		margin-bottom: 45%;
 	}
 }
