@@ -43,7 +43,7 @@ nav{
 }
 /*carousel*/
 .carimg1{
-	background-image: url(../img/inicio.JPG);
+	background-image: url(../img/inicio.jpeg);
 	background-size: 100% 100%;
 }
 .carimg2{
@@ -262,7 +262,10 @@ footer{
 }
 footer span{
 	font-size: small;	
-	line-height: 100%;
+}
+.foo > span{
+	display: block;
+	margin: auto;
 }
 /*espacios*/
 .ofi{
