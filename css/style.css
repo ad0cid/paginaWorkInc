@@ -138,6 +138,7 @@ nav{
 }
 .medium{
 	font-size: medium;	
+	word-spacing: -1px;
 }
 .verMas{
 	background-color: #ae0400 !important;
