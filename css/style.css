@@ -88,7 +88,7 @@ nav{
 	border: solid 1px #e0e0e0 ;
 	margin: 5% 0;
 	padding: 2%;
-	height: 470px;
+	height: 400px;
 }
 .txtj{
 	text-align: justify;
@@ -136,15 +136,20 @@ nav{
 	padding-top: 30%;
 	margin-top: -1px;
 }
+.medium{
+	font-size: medium;	
+}
 .verMas{
-	display: block;
-	margin: auto;
 	background-color: #ae0400 !important;
-	padding: 3%;
 	text-decoration: none;
 	border: solid 1px #ae0400;
 	border-radius: 10%;
 	color: white !important;
+	display: block;
+	margin: auto;
+}
+.mb1, .mb2, .mb3, .mb4, .mb5{
+	margin-bottom: 23%;
 }
 /*comunidad*/
 #exire{
@@ -422,5 +427,8 @@ label{
 	}
 	.c1{
 		height: 108px;
+	}
+	.tarjeta{
+		height: 470px;
 	}
 }
