@@ -256,12 +256,13 @@ footer{
 	background-color: #ae0400;
 	text-align: center;
 }
-.redes{
-	display: block;
-	margin: auto;
+.redes a{
+	color: white;
+	padding:2%;
 }
-.redes img{
-	margin: 2%;
+footer span{
+	font-size: small;	
+	line-height: 100%;
 }
 /*espacios*/
 .ofi{
