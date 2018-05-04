@@ -43,29 +43,39 @@ nav{
 }
 /*carousel*/
 .carimg1{
-	background-image: url(../img/inicio.jpeg);
+	background-image: url(../img/portada1.jpg);
 	background-size: 100% 100%;
 }
 .carimg2{
-	background-image: url(../img/terraza.jpg);
+	background-image: url(../img/portada2.jpg);
 	background-size: 100% 100%;
 }
 .carimg3{
-	background-image: url(../img/IMG_5469.JPG);
+	background-image: url(../img/portada3.jpg);
 	background-size: 100% 100%;
 }
 .carimg4{
-	background-image: url(../img/IMG_8336_.jpg);
+	background-image: url(../img/portada4.jpg);
 	background-size: 100% 100%;
 }
 .size{
 	width: 100%;
 }
-.fondo{
-	background-color: rgba(0,0,0,0.5);
-}
 .carousel{
 	height: 600px;
+}
+.sombra{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 60%;
+	display: block;
+	margin: auto;	
+	margin-top: 30%;
+}
+.intro{
+	color: white;
+	text-align: center;
+	font-size: 1em !important;
+	font-weight: bold;
 }
 /*beneficios*/
 .centrar{
@@ -381,8 +391,18 @@ label{
 		display: block;
 		margin: auto;
 	}
-	.carousel{
-		height: 300px;
+	.carimg1{
+		background-size: 100% 50%;
+		background-repeat: no-repeat;
+	}
+	#beneficios{
+		margin-top: -75%;
+	}
+	.tarjeta{
+		height: 400px;
+	}
+	.bt1{
+		margin-top: -5%;
 	}
 	.circulo{
 		width: 30px;
@@ -401,12 +421,12 @@ label{
 	.ofi, .cow, .esc, .virtuales, .jun, .con{
 		height: 300px;
 	}
-	.carimg1, .carimg2, .carimg3, .carimg4{
-		height: 50px !important;
+	.c1, .c2, .c3{
+		margin-bottom: 3%;
 	}
 }
 /*movil horizontal*/
-@media all and (min-width:360px) and (max-width:640px){
+@media all and (min-width:361px) and (max-width:640px){
 	.logoWI{
 		width: 42%;
 		display: block;
@@ -467,7 +487,7 @@ label{
 		height: 420px;
 	}
 }
-@media all and (min-width:768px) and (max-width:1024px){
+@media all and (min-width:768px) and (max-width:1023px){
 	.logoWI{
 		width: 35%;
 		display: block;
