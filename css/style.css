@@ -391,9 +391,16 @@ label{
 		display: block;
 		margin: auto;
 	}
-	.carimg1{
+	.carimg1, .carimg2, .carimg3, .carimg4{
 		background-size: 100% 50%;
 		background-repeat: no-repeat;
+	}
+	.sombra{
+		width: 80%;
+		margin-top: 60%;
+	}
+	.intro{
+		font-size: small !important;
 	}
 	#beneficios{
 		margin-top: -75%;
@@ -520,4 +527,8 @@ label{
 	.mb5{
 		margin-bottom: 45%;
 	}
+	.sombra{
+		margin-top: 60%;
+	}
+	
 }
