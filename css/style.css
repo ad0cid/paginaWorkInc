@@ -405,8 +405,22 @@ label{
 		height: 50px !important;
 	}
 }
+/**/
+@media all and (min-width:360px) and (max-width:640px){
+	.logoWI{
+		width: 42%;
+		display: block;
+		margin: auto;
+	}
+	.tarjeta{
+		height: 500px;
+	}
+	.carousel.carousel-slider .carousel-item{
+		height: 10px !important;
+	}
+}
 /*tablet*/
-@media all and (min-width:360px) and (max-width:768px){
+@media all and (min-width:641px) and (max-width:768px){
 	.logoWI{
 		width: 60%;
 		display: block;
