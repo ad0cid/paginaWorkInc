@@ -401,6 +401,9 @@ label{
 	.ofi, .cow, .esc, .virtuales, .jun, .con{
 		height: 300px;
 	}
+	.carimg1, .carimg2, .carimg3, .carimg4{
+		height: 50px !important;
+	}
 }
 /*tablet*/
 @media all and (min-width:360px) and (max-width:768px){
