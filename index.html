@@ -20,19 +20,28 @@
     <header>
       <div class="navbar-fixed">
         <nav>
-          <div class="nav-wrapper">
-            <a href="index.html" class="brand-logo"><img src="img/logoBlanco.png" alt="logo Work Inc" class="logoWI"></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="#beneficios">Beneficios</a></li>
-              <li><a href="#membresias">Membresías</a></li>
-              <li><a href="#comunidad">Nuestra Comunidad</a></li>
-              <li><a href="#contacto">Contacto</a></li>
-              <li><a href="#ubicacion">Ubicación</a></li>
-              <li><a href="#modal1" class="waves-effect waves-light modal-trigger">Day Pass Free</a></li>
-            </ul>
-          </div>
+            <div class="nav-wrapper">
+              <a href="index.html" class="brand-logo"><img src="img/logoBlanco.png" alt="logo Work Inc" class="logoWI"></a>
+              <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down"> 
+                  <li><a href="#beneficios">Beneficios</a></li>
+                  <li><a href="#membresias">Membresías</a></li>
+                  <li><a href="#comunidad">Nuestra Comunidad</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+                  <li><a href="#ubicacion">Ubicación</a></li>
+                  <li><a href="#modal1" class="waves-effect waves-light modal-trigger">Day Pass Free</a></li>
+              </ul>
+             </div> 
         </nav>
-      </div>     
+      </div>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#membresias">Membresías</a></li>
+        <li><a href="#comunidad">Nuestra Comunidad</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#modal1" class="waves-effect waves-light modal-trigger">Day Pass Free</a></li>
+      </ul>
     </header>
     <div id="modal1" class="modal">
       <div class="modal-content">
@@ -335,6 +344,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script>
+      $(".button-collapse").sideNav();
       $(document).ready(function(){
         // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
         $('.modal').modal();

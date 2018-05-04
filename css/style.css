@@ -409,6 +409,9 @@ label{
 		display: block;
 		margin: auto;
 	}
+	.carimg1, .carimg2, .carimg3, .carimg4{
+		height: 250px;
+	}
 	.ofi, .cow, .esc, .virtuales, .jun, .con{
 		height: 300px;
 	}
