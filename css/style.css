@@ -279,37 +279,32 @@ footer span{
 }
 /*espacios*/
 .ofi{
-	background: url("../img/oficinas.JPG");
+	background: url("../img/oficinas.jpg");
 	background-size: 100% 100%;
 	height: 600px;
 }
 .cow{
-	background: url("../img/coworking.JPG");
+	background: url("../img/coworking.jpg");
 	background-size: 100% 100%;
 	height: 600px;
 }
 .esc{
-	background: url("../img/escritorio.jpg");
-	background-size: 100% 100%;
-	height: 600px;
-}
-.fijo{
-	background: url("../img/coworking.JPG");
+	background: url("../img/escritorios-fijos.jpg");
 	background-size: 100% 100%;
 	height: 600px;
 }
 .virtuales{
-	background: url("../img/virtuales.jpg");
+	background: url("../img/oficina-virtual.jpg");
 	background-size: 100% 100%;
 	height: 600px;
 }
 .jun{
-	background: url("../img/juntas.jpg");
+	background: url("../img/sala-juntas.jpg");
 	background-size: 100% 100%;
 	height: 600px;
 }
 .con{
-	background: url("../img/conferencias.JPG");
+	background: url("../img/sala-conferencias.jpg");
 	background-size: 100% 100%;
 	height: 600px;
 }
