@@ -514,6 +514,8 @@ label{
 	}
 	.ofi, .cow, .esc, .virtuales, .jun, .con{
 		height: 300px;
+		background-size: 100%;
+		background-repeat: no-repeat;
 	}
 	.image{
 		height: 200px;
@@ -521,7 +523,7 @@ label{
 	.c1, .c2, .c3{
 		margin-bottom: 3%;
 	}
-}
+}	
 
 /*iPhone horizontal*/
 @media all and (min-width:667px) and (max-width: 768px){
@@ -566,12 +568,9 @@ label{
 		margin-top: 35%;
 	}
 	.ofi, .cow, .esc, .virtuales, .jun, .con{
-		background-size: 100% 60%;
-		background-repeat: no-repeat;
+		height: 350px;
 	}
-	.pre{
-		margin-top: -30%;
-	}
+	
 	.c1{
 		height: 135px;
 	}
