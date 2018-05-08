@@ -44,22 +44,19 @@ nav{
 /*carousel*/
 .carimg1{
 	background-image: url(../img/portada2.jpg);
-	background-size: 100% 100%;
+	background-size: 100%;
 }
 .carimg2{
 	background-image: url(../img/portada1.jpg);
-	background-size: 100% 100%;
+	background-size: 100%;
 }
 .carimg3{
 	background-image: url(../img/portada3.jpg);
-	background-size: 100% 100%;
+	background-size: 100%;
 }
 .carimg4{
 	background-image: url(../img/portada4.jpg);
-	background-size: 100% 100%;
-}
-.size{
-	width: 100%;
+	background-size: 100%;
 }
 .carousel{
 	height: 610px;
@@ -282,32 +279,32 @@ footer span{
 /*espacios*/
 .ofi{
 	background: url("../img/oficinas.jpg");
-	background-size: 100% 100%;
+	background-size: 110% 115%;
 	height: 600px;
 }
 .cow{
 	background: url("../img/coworking.jpg");
-	background-size: 100% 100%;
+	background-size: 110% 110%;
 	height: 600px;
 }
 .esc{
 	background: url("../img/escritorios-fijos.jpg");
-	background-size: 100% 100%;
+	background-size: 100% 120%;
 	height: 600px;
 }
 .virtuales{
 	background: url("../img/oficina-virtual.jpg");
-	background-size: 100% 100%;
+	background-size: 100% 120%;
 	height: 600px;
 }
 .jun{
 	background: url("../img/sala-juntas.jpg");
-	background-size: 100% 100%;
+	background-size: 100% 140%;
 	height: 600px;
 }
 .con{
 	background: url("../img/sala-conferencias.jpg");
-	background-size: 100% 100%;
+	background-size: 100% 150%;
 	height: 600px;
 }
 .images{
@@ -381,282 +378,82 @@ label{
 	border-radius: 5%;
 }
 /*MEDIA QUERIES*/
-/*movil*/
-@media all and (max-width:360px){
+
+/*movil horizontal*/
+@media all and (min-width:360px) and (max-width:374px){
 	.logoWI{
-		width: 65%;
 		display: block;
 		margin: auto;
-	}
-	.carimg1, .carimg2, .carimg3, .carimg4{
-		background-size: 100% 50%;
+		width: 65%;
+	}	
+	.carimg1{
 		background-repeat: no-repeat;
 	}
+	.cuadro{
+		padding: 1%;
+		margin-top: 5%;
+		border: solid white 3px ;
+	}
 	.intro{
-		font-size: small !important;
+		font-size: 1em !important;
 	}
 	#beneficios{
-		margin-top: -75%;
-	}
-	.tarjeta{
-		height: 400px;
+		margin-top: -100%;
 	}
 	.bt1, .bt2, .bt3, .bt5{
-		margin-top: -5%;
-	}
-	.bt2{
-		margin-top: -5%;
-	}
-	.circulo{
-		width: 30px;
-		height: 30px;
-	}
-	.circulo i{
-		margin-top: 10%;
-	}
-	.image{
-		width: 100%;
-		height: 200px;	
-	}
-	.txtr{
-		margin-bottom: 5%;
-	}
-	.ofi, .cow, .esc, .virtuales, .jun, .con{
-		height: 270px;
-	}
-	.c1, .c2, .c3{
-		margin-bottom: 3%;
-	}
-}
-/*movil horizontal*/
-@media all and (min-width:361px) and (max-width:374px){
-	.logoWI{
-		width: 42%;
-		display: block;
-		margin: auto;
-	}
-	.cuadro{
-		padding: 4%;
-		margin-top: 4;
-		width: 100%;
-	}
-	.intro{
-		font-size: 1em !important;
-	}
-	.tarjeta{
-		height: 450px;
-	}
-	.carimg1, .carimg2, .carimg3, .carimg4{
-		background-size: 100% 50%;
-		background-repeat: no-repeat;
-	}
-	#beneficios{
-		margin-top: -45%;
-	}
-	.ofi, .cow, .esc, .virtuales, .jun, .con{
-		background-size: 100% 50%;
-		background-repeat: no-repeat;
-		margin-bottom: -50%;
-	}
-	#oficinas, #coworking, #escritorio, #virtual, #juntas, #conferencias{
-		height: 150px;
-	}
-	.espacio{
-		font-size: 1em;
-	}
-	.bt1{
-		margin-top: 70%;
-	}
-	.bt2{
-		margin-top: 55%;
-	}
-	.bt3{
-		margin-top: 65%;
-	}
-	.bt4{
-		margin-top: 65%;
-	}
-	.bt5{
-		margin-top: 51%;
-	}
-	.image{
-		width: 100%;
-		height: 60px;
-	}
-	.c1, .c4{
-		height: 162px;
-	}	
-}
-/*iPhone vertical*/
-@media all and (min-width:375px) and (max-width:640px){
-	.logoWI{
-		width: 62%;
-		display: block;
-		margin: auto;
-	}
-	.carousel{
-		height: 200px;
-	}
-	.intro{
-		font-size: 1em !important;
-	}
-	.tarjeta{
-		height: 430px;
-	}
-	#oficinas, #coworking, #escritorio, #virtual, #juntas, #conferencias{
-		height: 230px;
-	}
-	.bt1{
-		margin-top: -5%;
-	}
-	.bt2, .bt3, .bt5{
 		margin-top: -10%;
 	}
-	.ofi, .cow, .esc, .virtuales, .jun, .con{
+	.ofi, .cow, .esc,{
 		height: 300px;
-		background-size: 100%;
-		background-repeat: no-repeat;
+		background-size: 150% 100%;
+	}
+	.virtuales, .jun, .con{
+		height: 300px;
+	}
+	.c1, .c2, .c3{
+		margin-bottom: 3%;
 	}
 	.image{
 		height: 200px;
 	}
-	.c1, .c2, .c3{
-		margin-bottom: 3%;
-	}
-}	
-
-/*iPhone horizontal*/
-@media all and (min-width:667px) and (max-width: 768px){
-	.logoWI{
-		display: block;
-		margin: auto;
-		width: 40%;
-	}
-	.carimg1, .carimg2, .carimg3, .carimg4{
-		background-size: 100% 50%;
-		background-repeat: no-repeat;
-	}
-	.cuadro{
-		margin-top: 5%;
-		padding: 5%;
-	}
-	.intro{
-		font-size: 1em !important;
-	}
-	#beneficios{
-		margin-top: -40%;
-	}
-	#oficinas, #coworking, #escritorio, #virtual, #juntas, #conferencias{
-		height: 150px;
-	}
-	.tarjeta{
-		height: 430px;
-	}
-	.espacio{
-		font-size: 1em;
-	}
-	.bt1{
-		margin-top: 52%;
-	}
-	.bt2{
-		margin-top: 37%;
-	}
-	.bt3, .bt4{
-		margin-top: 50%;
-	}
-	.bt5{
-		margin-top: 35%;
-	}
-	.ofi, .cow, .esc, .virtuales, .jun, .con{
-		height: 350px;
-	}
-	
-	.c1{
-		height: 135px;
-	}
-	.image{
-		height: 80px;
-	}
 }
 
-/*tablet*/
-@media all and (min-width:641px) and (max-width:666px){
-	.logoWI{
-		width: 60%;
-		display: block;
-		margin: auto;
-	}
-	.carimg1, .carimg2, .carimg3, .carimg4{
-		height: 250px;
-	}
-	.ofi, .cow, .esc, .virtuales, .jun, .con{
-		height: 300px;
-	}
-	.galeria{
-		margin-top: 50%;
-	}
-	.c1, .c2, .c3{
-		margin-bottom: 3%;
-	}
-	.tarjeta{
-		height: 420px;
-	}
+/*movil vertical*/
+@media all and (min-width:640px) and (max-width:666px){
+
 }
+
+/*Iphone horizontal*/
+@media all and (min-width:375px) and (max-width:639px){
+
+}
+
+/*iphone vertical*/
+@media all and (min-width:667px) and (max-width:767px){
+
+}
+
+/*ipad horizontal*/
 @media all and (min-width:768px) and (max-width:1023px){
-	.logoWI{
-		width: 35%;
-		display: block;
-		margin: auto;
-	}
-	.tarjeta{
-		height: 580px;
-	}
-	.ofi, .cow, .esc, .virtuales, .jun, .con{
-		height: 500px;
-	}
-	.c1{
-		height: 108px;
-	}
-	.tarjeta{
-		height: 470px;
-	}
-	.mb1{
-		margin-bottom: 58%;
-	}
-	.mb2{
-		margin-bottom: 45%;
-	}
-	.mb3{
-		margin-bottom: 45%;
-	}
-	.mb4{
-		margin-bottom: 57%;
-	}
-	.mb5{
-		margin-bottom: 45%;
-	}
-	
+
 }
+
+/*ipad vertical*/
 @media all and (min-width:1024px) and (max-width:1100px){
-	.tarjeta{
-		height: 465px;
-	}
-	.bt1{
-		margin-top: 40%;
-	}
-	.bt2{
-		margin-top: 30%;
-	}
-	.bt3{
-		margin-top: 40%;
-	}
-	.bt4{
-		margin-top: 52%;
-	}
-	.bt5{
-		margin-top: 50%;
-	}
-	.c1{
-		height: 108px;
-	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
