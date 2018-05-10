@@ -637,7 +637,7 @@ label{
 }
 
 /*ipad vertical*/
-@media all and (max-width:1024px){
+@media all and (min-width:1024px) and (max-width:1200px){
 	.carimg1, .carimg2, .carimg3, .carimg4{
 		background-repeat: no-repeat;
 	}
