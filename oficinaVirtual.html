@@ -65,37 +65,37 @@
     <div id="modal1" class="modal">
         <div class="modal-content">
             <p class="center-align precio">Registra tus datos y gana un Day Pass Free</p>
-            <form action="">
+            <form action="/daypass.php" method="POST">
                 <div class="row">
-                <div class="input-field col s12">
-                    <input id="name" type="text" class="validate">
+                  <div class="input-field col s12">
+                    <input id="name" type="text" class="validate" name="nombre">
                     <label for="first_name">Nombre</label>
-                </div>
+                  </div>
                 </div>
                 <div class="row">  
-                <div class="input-field col s12">
-                    <input id="last_name" type="text" class="validate">
+                  <div class="input-field col s12">
+                    <input id="last_name" type="text" class="validate" name="apellido">
                     <label for="last_name">Apellido</label>
-                </div>
+                  </div>
                 </div>
                 <div class="row">  
-                <div class="input-field col s12">
-                    <input id="mail" type="text" class="validate">
+                  <div class="input-field col s12">
+                    <input id="mail" type="text" class="validate" name="e-mail">
                     <label for="last_name">E-mail</label>
-                </div>
+                  </div>
                 </div>
                 <div class="row">
-                <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea" name="comentario"></textarea>
                     <label for="textarea1">¿Cómo te enteraste de nosotros?</label>
-                </div>
+                  </div>
                 </div>
                 <div class="row">
-                <div class="col s6 offset-s3">
+                  <div class="col s6 offset-s3">
                     <button class="cupon"><a href="cupon.pdf" download="DayPassFree">Envíar</a></button>
+                  </div>
                 </div>
-                </div>
-            </form>
+              </form>
         </div>
     </div>
     <section class="virtuales"> <!--img oficina virtual-->
