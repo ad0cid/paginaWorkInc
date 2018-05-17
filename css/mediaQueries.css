@@ -10,6 +10,10 @@
 	.carimg1, .carimg2, .carimg3, .carimg4{
 		background-repeat: no-repeat;
 	}
+	.carimg1, .carimg3{
+		background-size: 100% 35%;
+		background-repeat: no-repeat;
+	}
 	.cuadro{
 		padding: 1%;
 		margin-top: 5%;
@@ -121,12 +125,9 @@
 	.carimg1, .carimg2, .carimg3, .carimg4{
 		background-repeat: no-repeat;
 	}
-	.intro{
-		font-size: large !important;
-	}
-	.cuadro{
-		padding: 2%;
-		border: solid white 5px;
+	.carimg1, .carimg3{
+		background-size: 100% 36.3%;
+		background-repeat: no-repeat;
 	}
 	#beneficios{
 		margin-top: -90%;
@@ -224,8 +225,9 @@
 	.carimg1, .carimg2, .carimg3, .carimg4{
 		background-repeat: no-repeat;
 	}
-	.cuadro{
-		padding: 3%;
+	.carimg1, .carimg3{
+		background-size: 100% 74.5%;
+		background-repeat: no-repeat;
 	}
 	#beneficios{
 		margin-top: -15%;

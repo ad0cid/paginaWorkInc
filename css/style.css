@@ -61,21 +61,6 @@ nav{
 .carousel{
 	height: 610px;
 }
-.cuadro{
-	border: solid 10px white;
-	display: block;
-	margin: auto;
-	width: 100%;
-	height: 80%;
-	margin-top: 10%;
-	padding: 10%;
-}
-.intro{
-	color: white;
-	text-align: center;
-	font-size: 1.5em !important;
-	font-weight: bold;
-}
 /*beneficios*/
 .centrar{
 	text-align:center;
@@ -378,10 +363,3 @@ label{
 	padding: 2%;
 	border-radius: 5%;
 }
-
-
-
-
-
-
-
