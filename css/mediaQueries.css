@@ -51,6 +51,9 @@
 	.image{	
 		height: 200px;
 	}
+	.images{
+		height: 100px;
+	}
 }
 
 /*movil vertical*/
@@ -111,7 +114,7 @@
 		height: 80px;
 	}
 	.images{
-		height: 130px;
+		height: 100px;
 	}
 }
 
@@ -147,6 +150,9 @@
 	}
 	.image{
 		height: 200px;
+	}
+	.images{
+		height: 100px;
 	}
 }
 
