@@ -28,21 +28,12 @@
 	.bt1, .bt2, .bt3, .bt5{
 		margin-top: -10%;
 	}
-	.ofi{
+	.ofi, .esc, .con{
 		height: 300px;
 		background-size: 120%;
 		background-repeat: no-repeat;
 	}
-	.cow{
-		height: 300px;
-	}
-	.esc{
-		height: 300px;
-	}
-	.jun{
-		height: 300px;
-	}
-	.con{
+	.cow, .virtuales, .jun {
 		height: 300px;
 	}
 	.c1, .c2, .c3{
@@ -50,9 +41,12 @@
 	}
 	.image{	
 		height: 200px;
-	}
+	}	
 	.images{
 		height: 100px;
+	}
+	#oficinas, #coworking, #escritorio, #virtual, #juntas, #conferencias{
+		height: 200px;
 	}
 }
 
@@ -111,7 +105,7 @@
 		height: 135px;
 	}
 	.image{
-		height: 80px;
+		height: 70px;
 	}
 	.images{
 		height: 100px;
@@ -214,7 +208,7 @@
 		height: 135px;
 	}
 	.image{
-		height: 80px;
+		height: 60px;
 	}
 	.images{
 		height: 100px;
@@ -262,6 +256,12 @@
 	.c1{
 		height: 108px;
 	}
+	.images{
+		height: 100px;
+	}
+	.image{
+		height: 80px;
+	}
 }
 
 /*ipad vertical*/
@@ -283,5 +283,11 @@
 	}
 	.c1{
 		height: 108px;
+	}
+	.images{
+		height: 100px;
+	}
+	.image{
+		height: 80px;
 	}
 }
