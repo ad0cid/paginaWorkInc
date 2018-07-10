@@ -264,33 +264,43 @@ footer span{
 /*espacios*/
 .ofi{
 	background: url("../img/oficinas.jpg");
-	background-size: 110% 115%;
-	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-position: 5% 40%;
+	height: 550px;
 }
 .cow{
 	background: url("../img/coworking.jpg");
 	background-size: 110% 110%;
-	height: 600px;
+	height: 550px;
 }
 .esc{
 	background: url("../img/escritorios-fijos.jpg");
-	background-size: 100% 120%;
-	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-position: 5% 40%;
+	height: 550px;
 }
 .virtuales{
 	background: url("../img/oficina-virtual.jpg");
-	background-size: 100% 120%;
-	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-position: 5% 40%;
+	height: 550px;
 }
 .jun{
 	background: url("../img/sala-juntas.jpg");
-	background-size: 100% 140%;
-	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-position: 5% 40%;
+	height: 550px;
 }
 .con{
 	background: url("../img/sala-conferencias.jpg");
-	background-size: 100% 150%;
-	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-position: 5% 40%;
+	height: 550px;
 }
 .images{
 	width: 100%;
